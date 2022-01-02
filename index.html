@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <meta name=”viewport” content=”width=device-width, initial-scale=1.0"> -->
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+		
+	
+	<div class="container d-flex justify-content-center">
+    <div class="row"><h1>Calculator</h1></div>
+		<div class="row">
+			<div class="col-md-12 ">
+				<div class="row">
+					
+					<div class="input"></div>
+          </div>
+          <div class="row">
+          <div class="output"></div>
+        </div>
+				
+				  	<div class="row"> 
+       			  	<button type="button" class="btn-lg num number btn-outline-dark" value="1">1</button>
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="2">2</button>
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="3">3</button>
+      			  	</div>
+      			  	<div class="row">
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="4">4</button>
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="5">5</button>
+        				<button type="button" class="btn-lg num btn-outline-dark" value="6">6</button>
+      				</div>
+      				<div class="row">
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="7">7</button>
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="8">8</button>
+        				<button type="button" class="btn-lg num number btn-outline-dark" value="9">9</button>
+      				</div>
+              <div class="row">
+                <button type="button" class="btn-lg  num btn-outline-dark" value="+">+ </button>
+                <button type="button" class="btn-lg  num btn-outline-dark" value="-">- </button>
+                <button type="button" class="btn-lg  num btn-outline-dark" value="*">x </button>
+                
+              </div>
+      				
+      				
+      				
+      				<div class="row">
+        				
+        				<button type="button" class="btn-lg num btn-outline-dark" value="0">0</button>
+        				<button type="button" class="btn-lg num eql text-danger btn-outline-dark" value="">=</button>
+        				<button type="button" class="btn-lg bg-danger clears btn-outline-dark">C</button>
+                <button type="button" class="btn-lg bg-danger delete btn-outline-dark">D</button>
+
+      				</div>
+              <!-- <div class="row">
+                <div id="history" style="background: green;width: 500px">histo</div>
+               <div id="history"></div>
+              </div> -->
+              
+      					
+      				
+
+			</div>
+      
+			
+			
+	</div>
+  <h5>history</h5>
+  <button class="bg-primary" onclick="clearhistory()">clear history</button>
+  <div id="h">
+    
+  </div>
+  </div>
+
+
+
+	<!--script-->
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
